@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import course from './data.json'
-import { v4 as uuidv4 } from 'uuid';
+// import { v4 as uuidv4 } from 'uuid';
 
 
 export async function GET() {
