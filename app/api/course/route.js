@@ -7,19 +7,19 @@ export async function GET() {
     return NextResponse.json(course)
   }
 
-  export async function POST(request) {
-    const {title,description,id,level,link}=await request.json()
-    console.log(title,description,id,level,link)
-    const newCourse={
-      id:uuidv4(),
-      title,
-      description,
-      level,
-      link
-    }
-    course.push(newCourse);
+  // export async function POST(request) {
+  //   const {title,description,id,level,link}=await request.json()
+  //   console.log(title,description,id,level,link)
+  //   const newCourse={
+  //     id:uuidv4(),
+  //     title,
+  //     description,
+  //     level,
+  //     link
+  //   }
+  //   course.push(newCourse);
 
-    return NextResponse.json(course);
-  }
+  //   return NextResponse.json(course);
+  // }
 
   
